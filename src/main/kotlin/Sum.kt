@@ -4,6 +4,6 @@ fun main() {
     val b = 8
     val sum = a + b
 
-    println(sum)
+    println("sum of a and b = $sum")
 
 }
