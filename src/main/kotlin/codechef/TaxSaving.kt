@@ -1,17 +1,16 @@
 package codechef
 
 fun main() {
+val testCase = readln().toInt()
 
-    val testCase = readln().toInt()
+repeat(testCase){
 
-    repeat(testCase){
+    val input = readln().split(" ")
 
-        val input = readln().split(" ")
+    val a = input[0].toInt()
+    val b = input[1].toInt()
 
-        val a = input[0].toInt()
-        val b = input[1].toInt()
-
-        println(a-b)
-    }
+    println(a-b)
+}
 
 }
