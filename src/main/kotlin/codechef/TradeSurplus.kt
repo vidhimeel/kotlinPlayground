@@ -17,7 +17,7 @@ fun main() {
         val surplusB = (b1 - b2)
 
         val surplusC = (surplusA + surplusB)
-        if( surplusC < 0 ){
+        if( surplusC > 0 ){
             println("YES")
         } else {
             println("NO")
