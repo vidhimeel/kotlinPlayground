@@ -1,8 +1,15 @@
+
 fun main() {
 
-    val string1 = "1 2 3 4 5 6"
-    val string2 = string1.split(" ")
-    print(string2[2])
+    val testCase = readln().toInt()
 
+    repeat(testCase) {
 
+        val input = readln().split(" ")
+
+        val a = input[0].toInt()
+        val b = input[1].toInt()
+
+        println(a - b)
+    }
 }
