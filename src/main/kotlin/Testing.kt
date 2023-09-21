@@ -10,6 +10,6 @@ fun main() {
         val a = input[0].toInt()
         val b = input[1].toInt()
 
-        println(a - b)
+        print(a - b)
     }
 }
