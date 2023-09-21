@@ -1,7 +1,7 @@
 package codechef
 
 fun main() {
-    val number = 123
+    val numb = 123
 
-    println(number)
+    println(numb)
 }
