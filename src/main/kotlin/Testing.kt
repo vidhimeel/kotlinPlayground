@@ -11,6 +11,6 @@ fun main() {
         val b = input[1].toInt()
         val c = input[2].toInt()
 
-        println(a + b * c)
+        println(a * b + c)
     }
 }
