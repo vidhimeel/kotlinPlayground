@@ -9,8 +9,7 @@ fun main() {
 
         val a: Int = input[0].toInt()
         val b: Int = input[1].toInt()
-
-        println(a * b)
+        println((a/ 10)*b)
 
     }
 }
