@@ -9,7 +9,7 @@ fun main() {
         val b = input[1].toInt()
 
 
-        if (a > b) {
+        if (a < b) {
             println(a)
         } else {
             println(b)
