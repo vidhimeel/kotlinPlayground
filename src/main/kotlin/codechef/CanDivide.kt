@@ -6,7 +6,7 @@ fun main() {
     repeat(testCase) {
 
         val n = readln().toInt()
-        if ( (n == 1 || n % 3 == 0)) {
+        if ( n % 3 == 0) {
             println("Yes")
         }else  {
             println("No")
