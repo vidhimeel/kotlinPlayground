@@ -16,7 +16,7 @@ fun main() {
 
         val min = minOf(a, min(b,c))
         val max = maxOf(a, maxOf(b, c))
-        val result = a + b + c - max + min
+        val result = a + b + c + max + min
 
         println(result)
 
