@@ -11,7 +11,7 @@ fun main() {
 
         if(a >= b+c+d){
             println(0)
-        }else if(a >= b+d || a >= c+d){
+        }else if(a >= c+d || a >= b+d){
             println(1)
         } else {
             println(2)
