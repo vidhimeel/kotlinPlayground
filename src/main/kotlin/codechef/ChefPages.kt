@@ -13,4 +13,4 @@ fun main() {
         } else if (a == 1) {
             println("https://www.codechef.com/contests")
         }
-    }
+}
