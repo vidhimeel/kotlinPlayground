@@ -13,5 +13,4 @@ fun main() {
     } else {
         println("no")
     }
-
 }
