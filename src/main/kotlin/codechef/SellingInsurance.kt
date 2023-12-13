@@ -6,6 +6,6 @@ fun main() {
 
         val x = readln().toInt()
 
-        println(Math.ceil(100 / (x * 0.2)).toInt())
+        println(Math.ceil(100 /(x * 0.2)).toInt())
     }
 }
