@@ -4,17 +4,16 @@ fun main() {
     repeat(testCase) {
 
         val input = readln().split(" ")
-        val a = input[0].toInt()
-        val b = input[1].toInt()
-        val c = input[2].toInt()
-        val d = input[3].toInt()
+        val n = input[0].toFloat()
+        val k = input[1].toFloat()
 
-        if(a >= b+c+d){
-            println(0)
-        }else if(a >= c+d || a >= b+d){
-            println(1)
-        } else {
-            println(2)
-        }
+        val a = (Math.floor(n /(k + 1.0)).toInt())
+
+        val b = ((n - a * k).toInt())
+        println(b)
+
     }
 }
+
+
+
