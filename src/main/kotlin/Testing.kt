@@ -10,6 +10,7 @@ fun main() {
         val a = (Math.floor(n /(k + 1.0)).toInt())
 
         val b = ((n - a * k).toInt())
+        println(a)
         println(b)
 
     }
