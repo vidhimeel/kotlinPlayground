@@ -9,7 +9,7 @@ fun main() {
         val x = input[0].toInt()
         val y = input[1].toInt()
 
-        val presses = Math.abs(x - y)
+        val presses = Math.abs(y - x)
         println(presses)
     }
 }
