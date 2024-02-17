@@ -7,8 +7,8 @@ fun main() {
         val x = input[0].toInt()
         val y = input[1].toInt()
 
-        val result = Math.abs(x - y )
-        println(result)
+        val r = Math.abs(x - y )
+        println(r)
     }
 }
 
