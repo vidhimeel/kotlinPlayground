@@ -6,7 +6,7 @@ fun main(){
 
     if(h == 8){
         println("PERFECT")
-    }else if(h < 8){
+    }else if(h > 8){
         println("MORE")
     }else{
         println("LESS")
