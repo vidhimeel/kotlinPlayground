@@ -1,20 +1,20 @@
 package codechef
 
-fun minRoomsNeeded(N: Int, A: List<Int>): Int {
+fun minRoomsNeeded(n: Int, a: List<Int>): Int {
     var totalRooms = 0
-    for (num in A) {
+    for (num in a) {
         totalRooms += (num + 1) / 2
     }
     return totalRooms
 }
 
 fun main() {
-    val T = readLine()!!.toInt()
+    val t = readln().toInt()
 
-    repeat(T) {
-        val N = readLine()!!.toInt()
-        val A = readLine()!!.split(" ").map { it.toInt() }
+    repeat(t) {
+        val n = readln().toInt()
+        val a = readln().split(" ").map { it.toInt() }
 
-        println(minRoomsNeeded(N, A))
+        println(minRoomsNeeded(n, a))
     }
 }
