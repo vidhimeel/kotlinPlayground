@@ -3,7 +3,7 @@ package codechef
 fun minRoomsNeeded(n: Int, a: List<Int>): Int {
     var totalRooms = 0
     for (num in a) {
-        totalRooms += (num + 2) / 2
+        totalRooms += (num + 1) / 2
     }
     return totalRooms
 }
