@@ -1,14 +1,15 @@
-fun main() {
+fun cricketTournament(x: Int, y:Int): String{
+
+    return if(y>=x) "NO" else "YES"
+}
+fun main(){
+
     val t = readln().toInt()
+    repeat(t){
 
-    repeat(t) {
-
-        val input = readln().split(" ")
-        val x = input[0].toInt()
-        val y = input[1].toInt()
-
-        val r = Math.abs(x - y )
-        println(r)
+        val(x, y) = readln().split(" ").map{it.toInt()}
+        val result = cricketTournament(x, y)
+        println(result)
     }
 }
 
