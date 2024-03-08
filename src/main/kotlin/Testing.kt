@@ -1,6 +1,6 @@
 fun cricketTournament(x: Int, y:Int): String{
 
-    return if(y>=x) "NO" else "YES"
+    return if(x>=y) "NO" else "YES"
 }
 fun main(){
 
