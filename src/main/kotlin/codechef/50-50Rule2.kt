@@ -11,7 +11,7 @@ fun main(){
     repeat(t){
 
         val(x,y) = readln().split(" ").map{it.toInt()}
-        val percentage = percentage(x, y)
+        val percentage = percentage(y, x)
         println(percentage)
     }
 }
