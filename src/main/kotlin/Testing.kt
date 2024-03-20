@@ -8,8 +8,8 @@ fun main(){
     repeat(t){
 
         val(x, y) = readln().split(" ").map{it.toInt()}
-        val result = cricketTournament(x, y)
-        println(result)
+        val r = cricketTournament(x, y)
+        println(r)
     }
 }
 
