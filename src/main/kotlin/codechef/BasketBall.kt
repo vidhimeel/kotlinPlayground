@@ -7,7 +7,7 @@ fun main() {
         val result =
             if (aliceScore >= bobScore + 10) 0
             else if ((bobScore + 10 - aliceScore) % 3 == 0) (bobScore + 10 - aliceScore)/3
-            else  (bobScore + 10 - aliceScore)/3 +1
+            else  (bobScore + 10 - aliceScore)/4 +1
 
         println(result)
     }
