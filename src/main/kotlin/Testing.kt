@@ -1,15 +1,12 @@
-fun cricketTournament(x: Int, y:Int): String{
+fun main() {
+    val input = readln().split(" ")
 
-    return if(x>=y) "NO" else "YES"
-}
-fun main(){
-
-    val t = readln().toInt()
-    repeat(t){
-
-        val(x, y) = readln().split(" ").map{it.toInt()}
-        val r = cricketTournament(x, y)
-        println(r)
+    val x = input[0].toInt()
+    val y = input[1].toInt()
+    if(x + y <= 2000 || x - y >= 2000){
+        println("YES")
+    }else{
+        println("NO")
     }
 }
 
