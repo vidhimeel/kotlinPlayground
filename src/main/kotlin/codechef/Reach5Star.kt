@@ -5,6 +5,6 @@ fun willBecome5Star(x: Int, y: Int): String {
 }
 
 fun main() {
-    val (x, y) = readLine()!!.split(" ").map { it.toInt() }
+    val (x, y) = readln().split(" ").map { it.toInt() }
     println(willBecome5Star(x, y))
 }
