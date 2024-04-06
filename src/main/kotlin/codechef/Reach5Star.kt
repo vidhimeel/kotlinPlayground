@@ -1,7 +1,7 @@
 package codechef
 
 fun willBecome5Star(x: Int, y: Int): String {
-    return if (y + y >= 2000) "YES" else "NO"
+    return if (x + y >= 2000) "YES" else "NO"
 }
 
 fun main() {
