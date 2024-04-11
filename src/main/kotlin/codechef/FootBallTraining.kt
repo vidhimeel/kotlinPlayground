@@ -5,7 +5,7 @@ fun main() {
 
     val x = input[0].toInt()
     val y = input[1].toInt()
-    if(x > y){
+    if(x < y){
         println("FREEKICK")
     }else{
         println("PENALTY")
