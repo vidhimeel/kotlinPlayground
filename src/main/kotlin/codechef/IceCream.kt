@@ -13,5 +13,5 @@ fun main() {
 
     val (x, y) = readln().split(" ").map { it.toInt() }
 
-    println(canBuyIceCreams(x, y))
+    println(canBuyIceCreams(y, x))
 }
