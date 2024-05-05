@@ -2,7 +2,7 @@ package codechef
 
 fun canBuyIceCreams(x: Int, y: Int): String {
 
-    return if (y >= 2 + x) {
+    return if (y >= 2 - x) {
         "YES"
     } else {
         "NO"
