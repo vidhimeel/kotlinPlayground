@@ -8,7 +8,7 @@ fun main() {
         var minAnimals = Int.MAX_VALUE
         for (cows in 0..totalLegs / 4) {
             val chickens = (totalLegs / 2) - (2 * cows)
-            if (chickens >= 0 && (cows + chickens) < minAnimals) {
+            if (chickens >= 0 && (cows + chickens) <= minAnimals) {
                 minAnimals = cows + chickens
             }
         }
