@@ -6,6 +6,6 @@ fun main() {
     val a = input[0].toInt()
     val b = input[1].toInt()
 
-    val result = (a == b)
+    val result = (a - b)
     println(result)
 }
