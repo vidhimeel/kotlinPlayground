@@ -6,8 +6,8 @@ fun main() {
     val x = input[0].toInt()
     val y = input[1].toInt()
 
-    val result = 2 * (x + y)
-    if ( result == 2 * (x + y)) {
+    val result = 2*(x + y)
+    if ( result == 2*(x + y)) {
         println("YES")
     } else {
         println("NO")
