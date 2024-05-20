@@ -13,7 +13,7 @@ fun main() {
         if(b >= a && b <= a+200){
             println("YES")
         }else{
-            println("NO")
+            println(" NO ")
         }
     }
 }
