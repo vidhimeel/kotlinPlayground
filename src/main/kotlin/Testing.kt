@@ -1,14 +1,13 @@
 fun main() {
 
     val input = readln().split(" ")
-    val x = input[0].toInt()
-    val y = input[1].toInt()
+    val a = input[0].toInt()
+    val b = input[1].toInt()
 
-    val result = 2*(x + y)
-    if ( result == 2*(x + y)) {
-        println("YES")
+    if (a <= b){
+        println("TYRO")
     } else {
-        println("NO")
+        println("DOM")
     }
 }
 
