@@ -6,7 +6,7 @@ fun main() {
 
     if (a == b ) {
         println("yes")
-    } else {
+    } else{
         println("no")
     }
 }
